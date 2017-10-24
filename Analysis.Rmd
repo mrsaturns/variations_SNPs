@@ -4,7 +4,12 @@ author: "Caleb"
 date: "10/24/2017"
 output: html_document
 ---
+```{r load-data}
+data <- read.csv("data/Dataset_S1.txt")
+head(data)
 
+```
+  
 #Load in data
 
 #view data
