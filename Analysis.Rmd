@@ -1,0 +1,12 @@
+---
+title: "Variants_SNPs"
+author: "Caleb"
+date: "10/24/2017"
+output: html_document
+---
+
+#Load in data
+
+#view data
+
+#plot data
