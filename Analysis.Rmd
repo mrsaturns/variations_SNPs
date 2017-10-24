@@ -29,4 +29,6 @@ colnames(data)[12] <- "percent.GC"
 data$GC.binned <- cut(data$percent.GC, 5)
 
 ggplot(data) + geom_bar(aes(x= GC.binned))
+#conclusion is that most reads were at a mid GC content (between 35 and 52%). 
+
 ```
