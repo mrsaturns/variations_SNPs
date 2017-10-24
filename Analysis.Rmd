@@ -5,13 +5,18 @@ date: "10/24/2017"
 output: html_document
 ---
 ```{r load-data}
+#Load in data
 data <- read.csv("data/Dataset_S1.txt")
+#view data
 head(data)
 
 ```
   
-#Load in data
 
-#view data
+
+
 
 #plot data
+```{r plot-gc}
+colnames(data)[12] <- "precent.GC"
+```
